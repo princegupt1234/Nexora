@@ -1,120 +1,224 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
-header{
-    width:100%;
+header {
+    width: 100%;
 }
 
-.navbar{
-    width:100%;
-    height:80px;
-    background:#fff;
+.navbar {
+    width: 100%;
+    height: 80px;
+    background: #fff;
 
-    display:flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
 
-    padding:0 100px;
-    box-shadow:0 2px 10px rgba(0,0,0,0.05);
+    padding: 0 100px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
-#logo{
-    width:160px;
-    height:80px;
-    display:flex;
-    align-items:center;
-   
+#logo {
+    width: 160px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+
 }
 
-#logo img{
-    width:auto;
-    height:40px;
+#logo img {
+    width: auto;
+    height: 40px;
 }
 
-#logo{
-    font-size:32px;
-    font-weight:700;
+#logo {
+    font-size: 32px;
+    font-weight: 700;
 }
 
-#nav{
-    flex:1;
-    margin:0 40px;
+#nav {
+    flex: 1;
+    margin: 0 40px;
 }
 
-#nav ul{
-    list-style:none;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:40px;
+#nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
-#nav ul li a{
-    text-decoration:none;
-    color:#222;
-    font-size:16px;
-    font-weight:500;
-    transition:.3s;
+#nav ul li a {
+    text-decoration: none;
+    color: #222;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .3s;
 }
 
-#nav ul li a:hover{
-    color:#2454ff;
+#nav ul li a:hover {
+    color: #2454ff;
 }
 
-.btn{
-    width:156px;
-    height:44px;
+.btn {
+    width: 156px;
+    height: 44px;
 
-    background:#2454ff;
-    color:#fff;
+    background: #2454ff;
+    color: #fff;
 
-    border:none;
-    border-radius:8px;
+    border: none;
+    border-radius: 8px;
 
-    font-size:16px;
-    font-weight:600;
-    cursor:pointer;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
 }
-.hero{
+
+.hero {
     height: 760px;
-    width:100%;
+    width: 100%;
     background-color: aqua;
 }
-.services{
+
+.services {
     height: 480px;
-    width:100%;
+    width: 100%;
     background-color: rgb(6, 10, 10);
 }
-.about{
+
+.about {
     height: 600px;
-    width:100%;
+    width: 100%;
     background-color: rgb(71, 210, 80);
 }
-.counter{
+
+.counter {
     height: 220px;
-    width:100%;
+    width: 100%;
     background-color: rgb(157, 207, 32);
 }
-.portfolio{
+
+.portfolio {
     height: 720px;
-    width:100%;
+    width: 100%;
     background-color: rgb(128, 184, 37);
 }
-.testimonials{
+
+.testimonials {
     height: 460px;
-    width:100%;
+    width: 100%;
     background-color: rgb(0, 21, 255);
 }
-.cta{
+
+.cta {
     height: 180px;
-    width:100%;
+    width: 100%;
     background-color: rgb(212, 0, 255);
 }
-footer{
-    height: 560px;
-    width:100%;
-    background-color: rgb(255, 0, 98);
+
+footer {
+    height: 360px;
+    width: 100%;
+    background-color: #0b0f19;
+    color: rgb(225, 216, 216);
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    font-size: 14px;
+}
+
+.ufooter {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 280px 200px 200px 200px 280px;
+    align-items: stretch;
+    justify-content: center;
+    gap: 80px;
+    padding-bottom: 20px;
+    transition: all .5s;
+}
+
+.col1 span {
+    line-height: 24px;
+    font-size: 25px;
+
+}
+
+.colicon {
+    height: 36px;
+    width: 280px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.coltxt .txt {
+    margin-bottom: 25px;
+}
+
+.icon {
+    height: 36px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background: rgb(255, 255, 255, 0.08);
+    transition: all .5s;
+}
+
+.icon:hover {
+    height: 40px;
+    width: 40px;
+    transition: all .5s;
+}
+
+.ufooter h3 {
+    margin-bottom: 20px;
+}
+
+.ufooter ul {
+    list-style: none;
+}
+
+.ufooter ul li {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.ufooter a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ufooter ul a:hover {
+    color: #38B2F6;
+    transition: all .5s;
+}
+
+.col5 ul li {
+    height: 55px;
+}
+
+.col5 i {
+    margin-right: 10px;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background-color: #1E2938;
+}
+
+.bfooter {
+    height: 60px;
+    padding-top: 40px;
+    text-align: center;
 }
