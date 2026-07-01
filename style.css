@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    width:100%;
+}
+
+.navbar{
+    width:100%;
+    height:80px;
+    background:#fff;
+
+    display:flex;
+    align-items:center;
+
+    padding:0 100px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+#logo{
+    width:160px;
+    height:80px;
+    display:flex;
+    align-items:center;
+   
+}
+
+#logo img{
+    width:auto;
+    height:40px;
+}
+
+#logo{
+    font-size:32px;
+    font-weight:700;
+}
+
+#nav{
+    flex:1;
+    margin:0 40px;
+}
+
+#nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+}
+
+#nav ul li a{
+    text-decoration:none;
+    color:#222;
+    font-size:16px;
+    font-weight:500;
+    transition:.3s;
+}
+
+#nav ul li a:hover{
+    color:#2454ff;
+}
+
+.btn{
+    width:156px;
+    height:44px;
+
+    background:#2454ff;
+    color:#fff;
+
+    border:none;
+    border-radius:8px;
+
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+}
+.hero{
+    height: 760px;
+    width:100%;
+    background-color: aqua;
+}
+.services{
+    height: 480px;
+    width:100%;
+    background-color: rgb(6, 10, 10);
+}
+.about{
+    height: 600px;
+    width:100%;
+    background-color: rgb(71, 210, 80);
+}
+.counter{
+    height: 220px;
+    width:100%;
+    background-color: rgb(157, 207, 32);
+}
+.portfolio{
+    height: 720px;
+    width:100%;
+    background-color: rgb(128, 184, 37);
+}
+.testimonials{
+    height: 460px;
+    width:100%;
+    background-color: rgb(0, 21, 255);
+}
+.cta{
+    height: 180px;
+    width:100%;
+    background-color: rgb(212, 0, 255);
+}
+footer{
+    height: 560px;
+    width:100%;
+    background-color: rgb(255, 0, 98);
+}
