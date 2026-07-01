@@ -127,16 +127,16 @@ footer {
     background-color: #0b0f19;
     color: rgb(225, 216, 216);
     padding-top: 40px;
-    padding-left: 25px;
-    padding-right: 25px;
-
+    padding-left: 80px;
+    padding-right: 80px;
+  
     font-size: 14px;
 }
 
 .ufooter {
     width: 100%;
     display: grid;
-    grid-template-columns: 280px 200px 200px 200px 280px;
+    grid-template-columns: 230px 200px 200px 200px 230px;
     align-items: stretch;
     justify-content: center;
     gap: 80px;
