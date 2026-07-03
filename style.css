@@ -102,8 +102,49 @@ header {
 .counter {
     height: 220px;
     width: 100%;
-    background-color: rgb(157, 207, 32);
+    background:linear-gradient(90deg, #2563EB 0%,#1a36d0 50%,#561dd5 100%);
+    overflow: hidden;
+   
 }
+.countercolor{
+    color:white;
+}
+.counterbox{
+    height: 220px;
+    width: 25%;
+    float:left ;
+    text-align: center;
+    padding:10px 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    margin: 0;
+   position: relative;
+}
+.counterbox:not(:last-child)::after{
+    content:"";
+    position:absolute;
+    right:0;
+    top:47px;
+    width:1px;
+    height:136px;
+    background:rgba(255,255,255,0.18);
+}
+.counterbox h1{
+    font-size: 48px;
+    margin-bottom:20px;
+}
+.counterbox h2{
+    color: #fff;
+   margin-bottom: 12px;
+    font-size:40px;
+}
+.counterbox p{
+    color: #fff;
+    margin:0px;
+    font-size:16px;;
+}
+
 
 .portfolio {
     height: 720px;
